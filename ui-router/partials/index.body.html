@@ -1,0 +1,11 @@
+﻿<div>this is body</div>
+<div class="row" ng-controller="navController">
+    <div>
+        <ul>
+            <li ui-sref="index.red">red</li>
+            <li ng-click="navToGreen()">green</li>
+            <li ng-click="setUrl('yellow')">yellow</li>
+        </ul>
+    </div>
+        <div ui-view>default center</div>
+</div>
